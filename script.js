@@ -32,7 +32,8 @@ const images = [
     'images/image10.jpg',
     'images/image11.jpg',
     'images/image12.jpg',
-    'images/image13.jpg'
+    'images/image13.jpg',
+    'images/image14.jpg'
 ];
 
 let currentIndex = 0;
@@ -43,7 +44,7 @@ function changeImage() {
     imageElement.src = images[currentIndex];
 }
 
-setInterval(changeImage, 300); 
+setInterval(changeImage, 350); 
 
 // Grab references to the button and div
 const fadeButton = document.getElementById('fadeButton');
