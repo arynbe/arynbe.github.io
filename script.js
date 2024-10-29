@@ -40,7 +40,7 @@ function changeImage() {
     imageElement.src = images[currentIndex];
 }
 
-setInterval(changeImage, 200); 
+setInterval(changeImage, 300); 
 
 // Grab references to the button and div
 const fadeButton = document.getElementById('fadeButton');
