@@ -20,21 +20,21 @@ cvElement.addEventListener('mouseenter', () => toggleInvert(true));  // Invert o
 cvElement.addEventListener('mouseleave', () => toggleInvert(false)); // Revert on mouse leave
 
 const images = [
-    'images/image1.jpg',
-    'images/image2.jpg',
-    'images/image3.jpg',
-    'images/image4.jpg',
-    'images/image5.jpg',
-    'images/image6.jpg',
-    'images/image7.jpg',
-    'images/image8.jpg',
-    'images/image9.jpg',
-    'images/image10.jpg',
-    'images/image11.jpg',
-    'images/image12.jpg',
-    'images/image13.jpg',
-    'images/image14.jpg',
-    'images/image15.jpg'
+    'images/image1.webp',
+    'images/image2.webp',
+    'images/image3.webp',
+    'images/image4.webp',
+    'images/image5.webp',
+    'images/image6.webp',
+    'images/image7.webp',
+    'images/image8.webp',
+    'images/image9.webp',
+    'images/image10.webp',
+    'images/image11.webp',
+    'images/image12.webp',
+    'images/image13.webp',
+    'images/image14.webp',
+    'images/image15.webp'
 ];
 
 let currentIndex = 0;
