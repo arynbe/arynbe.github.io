@@ -268,6 +268,12 @@ transform: translate(-50%, -50%) rotate(45deg);
 transform: translate(-50%, -50%) rotate(-45deg);
 }
 
+.crd{
+	position:absolute;
+	bottom:0vw;
+	opacity:.2;
+}
+
 
 
 @media only screen and (max-width: 1200px) {
@@ -412,5 +418,11 @@ transform: translate(-50%, -50%) rotate(-45deg);
     .noScroll {
      overflow: hidden;
     }
+
+	.crd {
+		position:relative;
+		margin-top:4rem;
+		margin-bottom:--m-col
+	}
 
 }
