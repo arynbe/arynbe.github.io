@@ -423,6 +423,10 @@ transform: translate(-50%, -50%) rotate(-45deg);
      overflow: hidden;
     }
 
+	.crd {
+		display:none
+	}
+
 	.crd-m {
 		display:block;
 		position:relative;
