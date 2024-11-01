@@ -240,6 +240,10 @@ li:hover .bio {
     outline: none;
 }
 
+.tc {
+	flex:1
+}
+
 .rot * {
     pointer-events: none;
 }
