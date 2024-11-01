@@ -268,10 +268,14 @@ transform: translate(-50%, -50%) rotate(45deg);
 transform: translate(-50%, -50%) rotate(-45deg);
 }
 
-.crd{
+.crd, .crd-m {
 	position:absolute;
 	bottom:0vw;
 	opacity:.2;
+}
+
+.crd-m {
+	display:none
 }
 
 
@@ -419,7 +423,8 @@ transform: translate(-50%, -50%) rotate(-45deg);
      overflow: hidden;
     }
 
-	.crd {
+	.crd-m {
+		display:block;
 		position:relative;
 		margin-top:4rem;
 		margin-bottom:--m-col
