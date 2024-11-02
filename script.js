@@ -40,12 +40,23 @@ const images = [
 let currentIndex = 0;
 const imageElement = document.getElementById('loop-image');
 
+// Preload all images
+const preloadedImages = images.map(src => {
+    const img = new Image();
+    img.src = src;
+    return img;
+});
+
 function changeImage() {
-    currentIndex = (currentIndex + 1) % images.length;
-    imageElement.src = images[currentIndex];
+    const nextImage = preloadedImages[currentIndex];
+    if (nextImage.complete) {
+        imageElement.src = nextImage.src;
+        currentIndex = (currentIndex + 1) % preloadedImages.length;
+    }
 }
 
-setInterval(changeImage, 350); 
+// Start the image loop
+setInterval(changeImage, 350);
 
 // Grab references to the button and div
 const fadeButton = document.getElementById('fadeButton');
